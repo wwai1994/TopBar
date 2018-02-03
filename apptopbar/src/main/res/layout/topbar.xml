@@ -21,13 +21,13 @@
         </RelativeLayout>
         <!--left-->
         <LinearLayout
-            android:paddingLeft="15dp"
             android:id="@+id/view_left"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/v_place"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
 
             <RelativeLayout
                 android:id="@+id/view_iv_left"
@@ -35,7 +35,6 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:src="@drawable/svg_left_white_40dp"
                     android:id="@+id/iv_left"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
@@ -43,13 +42,12 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_marginLeft="5dp"
                 android:id="@+id/view_tv_left"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp">
 
                 <TextView
-                    android:text="@string/left"
                     android:id="@+id/tv_left"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -77,7 +75,6 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:text="@string/title"
                     android:id="@+id/tv_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -89,13 +86,12 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_marginLeft="5dp"
                 android:id="@+id/view_iv_title"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp">
 
                 <ImageView
-                 android:background="@color/white"
                     android:id="@+id/iv_title"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
@@ -105,13 +101,13 @@
         </LinearLayout>
         <!--right-->
         <LinearLayout
-            android:paddingRight="15dp"
             android:id="@+id/view_right"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/v_place"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingRight="15dp">
 
             <RelativeLayout
                 android:id="@+id/view_tv_right"
@@ -119,7 +115,6 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:text="@string/right"
                     android:id="@+id/tv_right"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -130,19 +125,17 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_marginLeft="5dp"
-                android:visibility="visible"
                 android:id="@+id/view_iv_right"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone">
 
                 <ImageView
-                    android:background="@color/white"
                     android:id="@+id/iv_right"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
-                    android:layout_centerInParent="true"
-                    />
+                    android:layout_centerInParent="true" />
             </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>
