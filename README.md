@@ -41,4 +41,18 @@ How to use in code：
                .setTopBarMargins(0,0,0,0)//设置整个控件的边距</br>
                .setStatusImmersive(true)//设置或取消沉浸式状态栏</br>
                .setFullScreen(true)//设置全屏</br>
+	        .setOnTopBarClickListenner(object :OnTopBarClickListenner{
+
+                   override fun onClickLeft(view: View) {
+                       super.onClickLeft(view)
+                   }
+
+                   override fun onClickRight(view: View) {
+                       super.onClickRight(view)
+                   }
+
+                   override fun onClickTitle(view: View) {
+                       super.onClickTitle(view)
+                   }
+               })
             // 左侧和右侧的文本和图片设置和标题相似，还可以get各个控件对象，一边进行各种扩展操作</br>
