@@ -41,7 +41,7 @@ How to use in code：
                .setTopBarMargins(0,0,0,0)//设置整个控件的边距</br>
                .setStatusImmersive(true)//设置或取消沉浸式状态栏</br>
                .setFullScreen(true)//设置全屏</br>
-	        .setOnTopBarClickListenner(object :OnTopBarClickListenner{
+	        .setOnTopBarClickListenner(object :OnTopBarClickListenner{//点击回调
 
                    override fun onClickLeft(view: View) {
                        super.onClickLeft(view)
