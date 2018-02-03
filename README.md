@@ -24,7 +24,7 @@ Step 2. Add the dependency
 	}
 How to use in code：
 
-  topBar_Main.setTitleText("标题")//设置标题文本
+  topBar_Main.setTitleText("标题")//设置标题文本</br>
                .setTitleTextColor(颜色)//设置标题文本颜色
                .setTitleTextSize(1f)//设置标题文本大小
                .setTitleTextisBold(true)//设置标题文本是否加粗（默认加粗，左侧和右侧文本默认不加粗）
