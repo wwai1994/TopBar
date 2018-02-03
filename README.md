@@ -55,4 +55,8 @@ How to use in code：
                        super.onClickTitle(view)
                    }
                })
-            // 左侧和右侧的文本和图片设置和标题相似，还可以get各个控件对象，一边进行各种扩展操作</br>
+            // 左侧和右侧的文本和图片设置和标题相似，还可以get各个控件对象，一边进行各种扩展操作
+	
+							TopBar结构示意图
+![image](https://github.com/wwai1994/TopBar/blob/master/apptopbar/src/main/res/drawable/top_bar_intro.png)
+
