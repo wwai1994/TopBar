@@ -20,7 +20,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.wwai1994:TopBar:v1.0.3'
+	        compile 'com.github.wwai1994:TopBar:v1.0.4'
 	}
 How to use in code：
 
